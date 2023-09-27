@@ -2,8 +2,23 @@ var questions=["question1","question2","question3","question4","question5","ques
 var i=0;
 
 var setEverythingUp = () => {
-    document.getElementById("ii").src="./ext_left.gif";
-    document.getElementById("father").style.transform="translate(-45vh,0vh)";
+    // document.getElementById("ii").src="./ext_right_r.gif";
+    document.getElementById("father").style.transform="translate(-48vh,0vh)";
+
+    setTimeout( () => {
+    const ele=document.getElementById("tv");
+    ele.style.position="absolute";
+    ele.style.top="24vh";
+    ele.style.left="125vh";
+    ele.style.border="7px solid black";
+    ele.style.borderRadius="5vh";
+    ele.style.height="45vh";
+    ele.style.width="74vh";
+    ele.style.paddingTop="2.4vh";
+    ele.style.paddingLeft="7vh";
+    document.getElementById("tvv").src="./NGTV.png";
+    
+    },1000);
 }
 
 var setEverythingBack = () => {
@@ -17,7 +32,7 @@ var setEverythingBack = () => {
     });
 
     document.getElementById("ii").src="./Screenshot 2023-09-26 222939.png";
-    document.getElementById("father").style.transform="translate(45vh,0vh)";
+    // document.getElementById("father").style.transform="translate(22.5vh,0vh)";
 }
 
 var play1 = () => {
@@ -64,13 +79,13 @@ var play2 = () => {
 var walkthrough = () => {
     
     setEverythingUp();
-    setTimeout(play1,1500);
-    setTimeout(play2,16500);
-    setTimeout(play1,27500);
-    setTimeout(play2,43500);
-    setTimeout(play1,54500);
-    setTimeout(play2,70500);
-    setTimeout(setEverythingBack,80000);
+    setTimeout(play1,2000);
+    setTimeout(play2,17000);
+    setTimeout(play1,28000);
+    setTimeout(play2,44000);
+    setTimeout(play1,55000);
+    setTimeout(play2,71000);
+    setTimeout(setEverythingBack,80500);
 }
 
 document.getElementById("b").addEventListener("click",walkthrough);
