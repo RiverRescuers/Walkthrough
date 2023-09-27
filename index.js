@@ -15,7 +15,7 @@ var setEverythingUp = () => {
     ele.style.border="7px solid black";
     ele.style.borderRadius="5vh";
     ele.style.height="45vh";
-    ele.style.width="74vh";
+    ele.style.width="36vw";
     ele.style.paddingTop="2.4vh";
     ele.style.paddingLeft="7vh";
     ele.style.overflow="hidden";
