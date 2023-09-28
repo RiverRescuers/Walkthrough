@@ -1,5 +1,5 @@
 var questions=["question1","question2","question3","question4","question5","question6"];
-var audios=["what.wav","who.wav","afforestation.wav","sw_mgt.wav","gangagram.wav","restoration.wav"]
+var audios=["what_who.wav","lesson.wav","afforestation.wav","sw_mgt.wav","gangagram.wav","restoration.wav"]
 var i=0;
 
 var setEverythingUp = () => {
@@ -75,12 +75,12 @@ var walkthrough = () => {
     
     setEverythingUp();
     setTimeout(play,2500);
-    setTimeout(play,16600);
     setTimeout(play,26700);
-    setTimeout(play,60800);
-    setTimeout(play,79900);
-    setTimeout(play,121300);
-    setTimeout(setEverythingBack,142400);
+    setTimeout(play,75800);
+    setTimeout(play,109900);
+    setTimeout(play,129000);
+    setTimeout(play,173100);
+    setTimeout(setEverythingBack,194200);
 }
 
 document.getElementById("b").addEventListener("click",walkthrough);
