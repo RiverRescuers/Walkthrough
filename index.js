@@ -87,3 +87,6 @@ document.getElementById("b").addEventListener("click",walkthrough);
 document.getElementById("b2").addEventListener("click",() => {
     window.location.href="https://chacha-chaudhary-web.vercel.app/chatbot";
 })
+document.getElementById("b3").addEventListener("click", () => {
+    window.location.href="./quiz.html";
+})
