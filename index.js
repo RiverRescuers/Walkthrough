@@ -30,6 +30,7 @@ var setEverythingUp = () => {
         video.src="./nmvid.mp4";
         video.autoplay=true;
         video.controls=false;
+        video.muted=true;
         video.height=320;
         video.width=545;
         video.style.objectFit="cover";
